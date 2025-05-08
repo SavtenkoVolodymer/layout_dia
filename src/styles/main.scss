@@ -1,7 +1,10 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
+@import 'blocks/header';
+@import 'blocks/index';
+@import 'blocks/top-bar';
+@import 'blocks/icon';
+@import 'blocks/page';
 
-body {
-  background: $c-gray;
-}
+

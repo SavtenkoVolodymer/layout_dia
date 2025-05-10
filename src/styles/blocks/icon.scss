@@ -1,15 +1,14 @@
 .icon {
+  display: block;
   height: 24px;
   width: 24px;
+  background-size: cover;
 
   &--logo {
     width: 46px;
     height: 28px;
   }
 
-  &--menu {
-    background-image: url(../img/icon-menu.png);
-  }
 }
 
 

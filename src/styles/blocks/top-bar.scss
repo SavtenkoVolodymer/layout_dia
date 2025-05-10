@@ -1,3 +1,24 @@
-// .top-bar {
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 20px;
 
-// }
+  &__icons {
+    align-items: center;
+    display: flex;
+    gap: 32px;
+  }
+
+  &__hire-us {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 150%;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2060f6;
+  }
+}
